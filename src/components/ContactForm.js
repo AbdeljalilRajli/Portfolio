@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { BsTelephone } from "react-icons/Bs";
-import { BsEnvelopeAt } from "react-icons/Bs";
 
 const ContactForm = () => {
   const [contactData, setContactData] = useState({
