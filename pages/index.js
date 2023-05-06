@@ -3,11 +3,6 @@ import Link from "next/link";
 import ContactForm from "../src/components/ContactForm";
 import TestimonialSlider from "../src/components/TestimonialSlider";
 import Layout from "../src/layout/Layout";
-import { TfiBriefcase } from "react-icons/Tfi";
-import { BsPeople } from "react-icons/Bs";
-import { AiOutlineCoffee } from "react-icons/Ai";
-import { FaLaptopCode } from "react-icons/Fa";
-import { MdOutlineDesignServices } from "react-icons/Md";
 
 
 const ProjectIsotop = dynamic(() => import("../src/components/ProjectIsotop"), {
@@ -166,7 +161,7 @@ const Index = () => {
                   className="numbers-item"
                 >
                   <div className="icon">
-                  <TfiBriefcase />
+                  <i class="fa fa-suitcase" aria-hidden="true"></i>
                   </div>
                   <div className="num">15+</div>
                   <div className="title">
@@ -177,7 +172,7 @@ const Index = () => {
                   className="numbers-item"
                 >
                   <div className="icon">
-                    <BsPeople />
+                  <i class="fa fa-users" aria-hidden="true"></i>
                   </div>
                   <div className="num">20+</div>
                   <div className="title">
@@ -188,7 +183,8 @@ const Index = () => {
                   className="numbers-item"
                 >
                   <div className="icon">
-                  <AiOutlineCoffee />
+                  <i class="fa fa-coffee" aria-hidden="true"></i>
+
                   </div>
                   <div className="num">500+</div>
                   <div className="title">
@@ -467,7 +463,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <MdOutlineDesignServices />
+                    <i class="fa fa-paint-brush" aria-hidden="true"></i>
                     </div>
                     <div className="title">UX/UI</div>
                     <div className="text">
@@ -484,7 +480,7 @@ const Index = () => {
                     className="services-item"
                   >
                     <div className="icon">
-                      <FaLaptopCode />
+                    <i class="fa fa-code" aria-hidden="true"></i>
                     </div>
                     <div className="title">Development</div>
                     <div className="text">
